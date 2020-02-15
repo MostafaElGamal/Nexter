@@ -2,10 +2,6 @@
   font-family: $font-display;
   font-weight: 400;
 
-  &--light {
-    color: $color-grey-light-1;
-  }
-
   &--dark {
     color: $color-grey-dark-1;
   }
@@ -13,6 +9,12 @@
 
 .heading-1 {
   @extend %heading;
+  font-size: 4.5rem;
+  color: $color-grey-light-1;
+  line-height: 1;
+  &--light {
+    color: $color-grey-light-1;
+  }
 }
 
 .heading-2 {
@@ -58,7 +60,6 @@
     background-color: $color-primary-dark;
   }
 }
-
 
 .mb-sm {
   margin-bottom: 2rem;
